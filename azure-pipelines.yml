@@ -16,7 +16,7 @@ steps:
     repository: 'aryansaurabhbhardwaj/devops-app'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: 'v1'
+    tags: 'latest'
 
 - task: KubernetesManifest@1
   inputs:
