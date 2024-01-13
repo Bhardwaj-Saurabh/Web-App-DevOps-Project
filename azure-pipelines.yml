@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Docker@2
   inputs:
-    containerRegistry: 'devops'
+    containerRegistry: 'docker hub'
     repository: 'aryansaurabhbhardwaj/devops-app'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
