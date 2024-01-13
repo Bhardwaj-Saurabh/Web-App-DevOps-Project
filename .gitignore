@@ -1,0 +1,10 @@
+# Ignore Terraform state files
+aks-terraform/*.tfstate
+aks-terraform/*.tfstate.*
+
+# Ignore .terraform directories
+.terraform/*
+aks-terraform/.terraform/*
+# Ignore plan output files
+aks-terraform/*.tfplan
+aks-terraform/*.tfout
