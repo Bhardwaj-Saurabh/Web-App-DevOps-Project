@@ -18,3 +18,11 @@ steps:
     Dockerfile: '**/Dockerfile'
     tags: 'v1'
 
+- task: KubernetesManifest@1
+  inputs:
+    action: 'kubernates'
+    connectionType: 'azureResourceManager'
+    azureSubscriptionConnection: 'Saurabh Bhardwaj Devops(98a976e8-8569-4290-9f79-9c1f5b14d05e)'
+    azureResourceGroup: 'networking-resource-group'
+    kubernetesCluster: 'terraform-aks-cluster'
+    manifests: 'application-manifest.yaml'
