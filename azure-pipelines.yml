@@ -25,5 +25,4 @@ steps:
     azureSubscriptionConnection: 'Saurabh Bhardwaj Devops(98a976e8-8569-4290-9f79-9c1f5b14d05e)'
     azureResourceGroup: 'networking-resource-group'
     kubernetesCluster: 'terraform-aks-cluster'
-    useClusterAdmin: true
     manifests: 'application-manifest.yaml'
