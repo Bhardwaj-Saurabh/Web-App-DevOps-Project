@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-app-container
-          image: aryansaurabhbhardwaj/devops-app:v1
+          image: aryansaurabhbhardwaj/devops-app:latest
           ports:
           - containerPort: 5000
   strategy:
