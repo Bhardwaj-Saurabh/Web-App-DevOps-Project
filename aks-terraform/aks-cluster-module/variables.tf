@@ -4,7 +4,7 @@ variable "aks_cluster_name" {
 }
 
 variable "cluster_location" {
-  description = "The Azure region where the cluster will be created"
+  description = "The Azure region where the cluster is created"
   type = string
 }
 

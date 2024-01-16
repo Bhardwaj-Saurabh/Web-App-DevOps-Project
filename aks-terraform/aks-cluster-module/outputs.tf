@@ -9,6 +9,6 @@ output "aks_cluster_id" {
 }
 
 output "aks_kubernetes_config" {
-  description = "This wil capture the Kubernetes configuration file of the cluster"
+  description = "This captures the Kubernetes configuration"
   value = azurerm_kubernetes_cluster.aks_cluster.kube_config_raw
 }
